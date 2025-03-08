@@ -1,11 +1,15 @@
 import React from "react";
 import Hero from "./ui/Hero";
+import Header from "./ui/Header";
 
 const LandingPage = () => {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className=" min-h-screen bg-gray-50">
+            <Header />
             {/* Hero Section */}
-            <Hero />
+            <div className="bg-primary">
+                <Hero />
+            </div>
             {/* Features Section */}
             <section className="py-16">
                 <div className="container mx-auto px-6">
