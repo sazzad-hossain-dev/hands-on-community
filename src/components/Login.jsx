@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "./ui/Button";
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -7,7 +7,6 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle login logic here
     };
 
     return (

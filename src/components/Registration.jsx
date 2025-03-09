@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "./ui/Button";
 
 const Register = () => {
     const [email, setEmail] = useState("");
@@ -8,7 +8,6 @@ const Register = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle registration logic here
     };
 
     return (
